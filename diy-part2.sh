@@ -25,7 +25,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 #sed -i "s/OpenWrt /PandoraBox /g" package/lean/default-settings/files/zzz-default-settings
 
 #### 稳定版修改R21xxx+自己的名字
-sed -i 's/R22.3.15 For JJ/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/R22.2.2/R22.3.15_By J/g' package/lean/default-settings/files/zzz-default-settings
 
 sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=Home_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
